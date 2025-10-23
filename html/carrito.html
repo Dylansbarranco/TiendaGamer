@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carrito — Tienda Gamer</title>
+    <meta name="description" content="Tu carrito de compras en Tienda Gamer.">
+</head>
+<body>
+    <div data-include="header.html"></div>
+
+    <main id="main" role="main">
+        <section id="carrito-hero">
+            <h1>Tu carrito</h1>
+            <p>Revisa los productos seleccionados, ajusta cantidades o elimina artículos.</p>
+        </section>
+
+        <section id="carrito-content">
+            <div id="cart-items"></div>
+
+            <div id="cart-summary">
+                <p>Subtotal: <strong id="cart-total"></strong></p>
+                <div id="cart-actions">
+                    <button id="clear-cart">Vaciar carrito</button>
+                    <button id="checkout">Pagar (simulado)</button>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <div data-include="footer.html"></div>
+
+    <script src="../js/main.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            // conectar botones de carrito si existen
+            const clearBtn = document.getElementById('clear-cart');
+            const checkoutBtn = document.getElementById('checkout');
+            if (clearBtn) clearBtn.addEventListener('click', () => { if (confirm('¿Vaciar el carrito?')) { clearCart(); renderCart('cart-items'); } });
+            if (checkoutBtn) checkoutBtn.addEventListener('click', () => { if (confirm('Simular pago y vaciar carrito?')) { checkoutSimulated(); } });
+        });
+    </script>
+</body>
+</html>
