@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tienda Gamer — Inicio</title>
+    <link rel="stylesheet" href="/css/header.css">
+    <link rel="stylesheet" href="/css/footer.css">
+    <link rel="stylesheet" href="/css/main.css">
+
+    <meta name="description" content="Tienda online de videojuegos, consolas y accesorios. Explora catálogo, ofertas y productos destacados.">
+</head>
+<body>
+  <!-- Inclusión dinámica del encabezado (header.html) usando atributo data-include y script en main.js -->
+  <div data-include="header.html"></div>
+
+  <!-- Contenido principal de la página -->
+  <main id="main" role="main">
+<!-- Sección hero: carrusel de fondo con overlay y contenido principal -->
+<section id="inicio">
+    <div aria-hidden="true">
+        <img id="hero-bg1" src="../icons/placeholder.png" alt="Carrusel 1">
+        <img id="hero-bg2" src="../icons/placeholder.png" alt="Carrusel 2">
+        <img id="hero-bg3" src="../icons/placeholder.png" alt="Carrusel 3">
+        <img id="hero-bg4" src="../icons/placeholder.png" alt="Carrusel 4">
+        <img id="hero-bg5" src="../icons/placeholder.png" alt="Carrusel 5">
+    </div>
+
+    <div>
+        <h1>Tienda Gamer</h1>
+        <p>Mejores productos Gamer</p>
+    </div>
+</section>
+
+<!-- Sección de productos destacados -->
+<section aria-labelledby="destacados-title">
+    <div>
+        <h2 id="destacados-title">Productos destacados</h2>
+        <!-- Grid donde se cargarán los productos dinámicamente desde ../data/products.json -->
+        <div id="destacados-list">
+            <!-- Placeholders iniciales: se reemplazan o se completan vía JS -->
+            <article tabindex="0">
+                <img src="../icons/placeholder.png" alt="Producto destacado">
+                <h3>Nombre del producto</h3>
+                <p>$XX.XX</p>
+                <a href="catalogo.html">Comprar</a>
+            </article>
+            <article tabindex="0">
+                <img src="../icons/placeholder.png" alt="Producto destacado">
+                <h3>Nombre del producto</h3>
+                <p>$XX.XX</p>
+                <a href="catalogo.html">Comprar</a>
+            </article>
+        </div>
+    </div>
+</section>
+
+<!-- Sección "Sobre nosotros" con enlace a página completa -->
+<section aria-labelledby="sobre-title">
+    <div>
+        <h2 id="sobre-title">Sobre nosotros</h2>
+        <p>Somos una tienda dedicada a gamers con selección curada y envío rápido.</p>
+        <a href="sobre-nosotros.html">Leer más</a>
+    </div>
+</section>
+</main>
+
+  <!-- Inclusión dinámica del pie de página (footer.html) -->
+  <div data-include="footer.html"></div>
+
+  <!-- Script principal: carga includes y comportamiento interactivo (carrusel, carga de productos, etc.) -->
+  <script src="../js/main.js"></script>
+</body>
+</html>

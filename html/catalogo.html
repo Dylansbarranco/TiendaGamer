@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Catálogo — Tienda Gamer</title>
+    <meta name="description" content="Explora nuestro catálogo de productos: consolas, juegos y accesorios.">
+    <link rel="stylesheet" href="/css/header.css">
+    <link rel="stylesheet" href="/css/footer.css">
+    <link rel="stylesheet" href="/css/main.css">
+</head>
+<body>
+    <div data-include="header.html"></div>
+
+    <main id="main" role="main">
+        <section>
+            <h1>Catálogo</h1>
+            <p>Busca y filtra entre todos nuestros productos.</p>
+        </section>
+
+        <section>
+            <div>
+                <label for="search-input">Buscar productos</label>
+                <input id="search-input" type="search" placeholder="Buscar por nombre..." aria-label="Buscar productos">
+
+                <label for="categoria-filter">Filtrar por categoría</label>
+                <select id="categoria-filter">
+                    <option value="">Todas las categorías</option>
+                </select>
+
+                <button id="clear-filters">Limpiar</button>
+            </div>
+        </section>
+
+        <section>
+            <div id="catalog-list" aria-live="polite">
+                <!-- Productos cargados dinámicamente aquí -->
+            </div>
+        </section>
+    </main>
+
+    <div data-include="footer.html"></div>
+
+    <script src="../js/main.js"></script>
+    <script>
+        // Inicialización específica de la página de catálogo
+        document.addEventListener('DOMContentLoaded', () => {
+            // Si existe el contenedor de catálogo, loadCatalogProducts lo manejará
+            const catalogList = document.getElementById('catalog-list');
+            if (!catalogList) return;
+
+            // Cargar el catálogo (la función está en js/main.js)
+            if (typeof loadCatalogProducts === 'function') {
+                loadCatalogProducts('catalog-list');
+            }
+        });
+    </script>
+</body>
+</html>
