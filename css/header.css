@@ -1,0 +1,61 @@
+header {
+  background: linear-gradient(135deg, #14181f, #1e252e);
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 12px 40px;
+  font-family: 'Poppins', sans-serif;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.4);
+}
+
+/* --- Logo --- */
+header h1 {
+  margin: 0;
+  font-size: 20px;
+  color: #ff2b6d;
+}
+
+/* --- Navegación --- */
+header nav {
+  flex: 1;
+  text-align: center;
+}
+
+header nav a {
+  color: #fff;
+  text-decoration: none;
+  margin: 0 16px;
+  font-weight: 600;
+  transition: color 0.2s;
+}
+
+header nav a:hover {
+  color: #00aaff;
+}
+
+/* --- Carrito --- */
+#cart-counter {
+  background: #ff2b6d;
+  padding: 6px 10px;
+  border-radius: 8px;
+  font-weight: 700;
+}
+
+/* --- Responsivo --- */
+@media (max-width: 768px) {
+  header {
+    flex-direction: column;
+    gap: 8px;
+    padding: 12px;
+  }
+
+  header nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
