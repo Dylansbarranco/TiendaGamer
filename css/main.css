@@ -1,135 +1,30 @@
-main {
-  background: #f4f6f8;
-  color: #1a1a1a;
-  font-family: 'Arial', sans-serif;
-  padding: 40px 20px;
-}
+/* Base */
+body{margin:0;background:#0b0f14;color:#fff;font-family:Poppins,Arial,Helvetica,sans-serif}
+main{width:92%;max-width:1200px;margin:30px auto;padding-bottom:60px}
 
-#inicio {
-  position: relative;
-  text-align: center;
-  color: black;
-  padding: 80px 20px;
-  background: linear-gradient(
-    to bottom,
-    rgba(143,164,180,0.2),
-    rgba(143,164,180,0.4)
-  );
-  border-radius: 12px;
-  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
-  margin-bottom: 60px;
-}
+/* Hero */
+#inicio{position:relative;text-align:center;padding:40px 10px;background:linear-gradient(135deg,#0e1116,#14171c);border-radius:8px}
+#inicio h1{font-size:44px;margin:12px 0 6px;color:#ff2b6d}
+#inicio p{color:#a8b3c1}
 
-#inicio h1 {
-  font-size: 48px;
-  margin-bottom: 10px;
-}
+/* Destacado - Inicio: un producto grande */
+body.inicio #destacados-list{display:flex;justify-content:center;align-items:center;margin:40px auto;max-width:900px}
+body.inicio #destacados-list article{background:#0f1418;border-radius:16px;padding:26px;text-align:center;box-shadow:0 8px 30px rgba(0,0,0,0.6)}
+body.inicio #destacados-list img{width:100%;max-height:420px;object-fit:cover;border-radius:12px}
+body.inicio h3{font-size:26px;margin:18px 0 8px}
+body.inicio .precio{font-size:22px;color:#00aaff;font-weight:700;margin-bottom:12px}
+body.inicio .btn{background:#00aaff;color:#fff;padding:10px 18px;border-radius:8px;text-decoration:none;display:inline-block}
 
-#inicio p {
-  font-size: 20px;
-  color: #333;
-}
+/* Catalogo: grid */
+body.catalogo #destacados-list, body.catalogo #catalog-list{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:22px;margin:30px 0}
+.producto-card{background:#0e1418;padding:18px;border-radius:12px;box-shadow:0 6px 18px rgba(0,0,0,0.5)}
+.producto-media img{width:100%;height:180px;object-fit:cover;border-radius:10px}
+.producto-card h3{font-size:18px;margin:12px 0}
+.precio{color:#00aaff;font-weight:700;margin:8px 0}
+.producto-actions{display:flex;gap:10px;justify-content:center;margin-top:8px}
+.btn{background:#00aaff;color:#fff;padding:8px 12px;border-radius:8px;text-decoration:none;font-weight:600;border:none;cursor:pointer}
+.btn.add-to-cart{background:#ff2b6d}
 
-#destacados-title {
-  text-align: center;
-  font-size: 28px;
-  color: #2e3a48;
-  margin-bottom: 30px;
-}
-
-#destacados-list {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-  gap: 25px;
-  padding: 0 20px;
-}
-
-#destacados-list article {
-  background: #ffffff;
-  border-radius: 12px;
-  box-shadow: 0 2px 6px rgba(0,0,0,0.15);
-  text-align: center;
-  padding: 20px;
-  transition: transform 0.3s, box-shadow 0.3s;
-}
-
-#destacados-list article:hover {
-  transform: translateY(-5px);
-  box-shadow: 0 4px 12px rgba(0,0,0,0.2);
-}
-
-#destacados-list img {
-  width: 100%;
-  height: 180px;
-  object-fit: cover;
-  border-radius: 10px;
-}
-
-#destacados-list h3 {
-  font-size: 20px;
-  margin: 10px 0;
-}
-
-#destacados-list p {
-  font-size: 18px;
-  color: #4a4a4a;
-}
-
-#destacados-list a {
-  display: inline-block;
-  margin-top: 10px;
-  padding: 10px 18px;
-  background: #8fa4b4;
-  color: white;
-  border-radius: 8px;
-  text-decoration: none;
-  transition: background 0.3s, transform 0.3s;
-}
-
-#destacados-list a:hover {
-  background: #a9bccb;
-  transform: scale(1.05);
-}
-
-#sobre-title {
-  text-align: center;
-  font-size: 28px;
-  color: #2e3a48;
-  margin: 60px 0 20px 0;
-}
-
-section[aria-labelledby="sobre-title"] {
-  background: #e6ecf1;
-  padding: 40px 30px;
-  border-radius: 12px;
-  text-align: center;
-  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
-}
-
-section[aria-labelledby="sobre-title"] p {
-  font-size: 18px;
-  margin-bottom: 15px;
-}
-
-section[aria-labelledby="sobre-title"] a {
-  color: white;
-  background: #8fa4b4;
-  padding: 10px 20px;
-  border-radius: 8px;
-  text-decoration: none;
-  transition: background 0.3s, transform 0.3s;
-}
-
-section[aria-labelledby="sobre-title"] a:hover {
-  background: #a9bccb;
-  transform: scale(1.05);
-}
-
-@media (max-width: 768px) {
-  #inicio h1 {
-    font-size: 36px;
-  }
-  #destacados-list {
-    grid-template-columns: 1fr;
-  }
-}
+/* Footer */
+footer{background:linear-gradient(135deg,#14181f,#0d0d0d);padding:22px 10px;text-align:center;color:#cbd5e1;border-top:1px solid rgba(255,255,255,0.03)}
+@media(max-width:720px){body.inicio #destacados-list article{padding:16px}#inicio h1{font-size:30px}}

@@ -128,5 +128,95 @@
             "https://i.pinimg.com/736x/4b/0d/cb/4b0dcb0812828d2de0488a137b524641.jpg"
         ]
 
+    },
+    {
+        "id": 11,
+        "nombre":"Audífonos Diadema Gamer PC Kotion G9000 Micrófono Auricular LED",
+        "precio": 80999,
+        "categoria":"audifonos",
+        "imagenes": [
+            "https://i.pinimg.com/736x/65/73/25/657325df9fd50dbfb9a438727f6d3420.jpg",
+            "https://i.pinimg.com/736x/c5/25/9f/c5259f956c50c8020707014d401a10ab.jpg",
+            "https://i.pinimg.com/736x/af/b2/6f/afb26f8027eb49b854a93638961beb99.jpg",
+            "https://i.pinimg.com/736x/99/36/c6/9936c6d4d732567f5dce174807e0a47b.jpg",
+            "https://i.pinimg.com/736x/28/95/c5/2895c5d33138fdef1aafd8020853d363.jpg",
+            "https://i.pinimg.com/736x/9a/2f/af/9a2fafb39edd5296a478c913ec5d4954.jpg"
+        ]
+    },
+    {
+        "id": 12,
+        "nombre":"Logitech G733 Diadema Gamer Inalámbrico RGB - Negro",
+        "precio": 98999,
+        "categoria":"audifonos",
+        "imagenes": [
+            "https://i.pinimg.com/736x/4c/bf/74/4cbf742a65ae8bd9a18175529105d771.jpg",
+            "https://i.pinimg.com/736x/01/92/f6/0192f689e6af0399fde42685b518a9a4.jpg",
+            "https://i.pinimg.com/736x/20/96/7b/20967b5f0e4137bd6f914b306ed9d20d.jpg",
+            "https://i.pinimg.com/736x/b5/7d/84/b57d845972abf73572146d18e80fbd41.jpg",
+            "https://i.pinimg.com/736x/7c/76/8a/7c768a7a19e288424b2eb44bc8f9fb7a.jpg"
+        ]
+    },
+    {
+        "id": 13,
+        "nombre":"Audifonos Gamer Usb Jaltech Kx15",
+        "precio": 73999,
+        "categoria":"audifonos",
+        "imagenes": [
+            "https://i.pinimg.com/736x/14/54/8a/14548ab815e5646c09a04ef3e063e049.jpg",
+            "https://i.pinimg.com/736x/3e/32/0e/3e320efa39efcc7bf08db05eb951b407.jpg",
+            "https://i.pinimg.com/736x/36/1c/38/361c38598e5890ab2f4991d3f057a896.jpg",
+            "https://i.pinimg.com/736x/4c/82/f1/4c82f1b79a7ffcd66c56504009959e0b.jpg",
+            "https://i.pinimg.com/736x/7b/fd/3e/7bfd3e86f1d84f4a5e391af2b199fbd9.jpg"
+        ]
+    },
+    {
+        "id": 14,
+        "nombre":"Auriculares Gaming Audifonos Gamer RGB Xtrike Me GH-711",
+        "precio": 68999,
+        "categoria":"audifonos",
+        "imagenes": [
+            "https://i.pinimg.com/736x/56/db/f0/56dbf0443f2c7fd212c34c41bf2836d0.jpg",
+            "https://i.pinimg.com/736x/65/b7/b7/65b7b7d11da27f77b8f0f150aff7cf1c.jpg",
+            "https://i.pinimg.com/736x/27/13/70/271370b9683cf52c1343fe0b809fcdf9.jpg",
+            "https://i.pinimg.com/736x/f5/bf/2c/f5bf2c89e0810159bf75e22553ea9621.jpg"
+        ]
+    },
+    {
+        "id": 15,
+        "nombre":"Audífonos Inalámbricos Over-Ear| Aeon HS999",
+        "precio": 68999,
+        "categoria":"audifonos",
+        "imagenes": [
+            "https://balamrush.com/cdn/shop/files/BR-936941_1.webp?v=1700755074&width=600",
+            "https://balamrush.com/cdn/shop/files/BR-936941_3.webp?v=1705426424&width=600",
+            "https://balamrush.com/cdn/shop/files/BR-936941_2.webp?v=1705426424&width=600",
+            "https://balamrush.com/cdn/shop/files/BR-936941_4.webp?v=1705426424&width=600",
+            "https://balamrush.com/cdn/shop/files/BR-936941_MOCKUP_1.webp?v=1705426424&width=600"
+        ]
+    },
+    {
+        "id": 16,
+        "nombre":"Audífonos Gamer alámbricos Beast Muspell Prime",
+        "precio": 78999,
+        "categoria":"audifonos",
+        "imagenes": [
+            "https://www.stf.tech/cdn/shop/files/STG-H11983_MuspellPrime_1.jpg?v=1744131191&width=700",
+            "https://www.stf.tech/cdn/shop/files/STG-H11983_MuspellPrime_2.jpg?v=1744131191&width=700",
+            "https://www.stf.tech/cdn/shop/files/STG-H11983_MuspellPrime_3.jpg?v=1692892153&width=700",
+            "https://www.stf.tech/cdn/shop/files/STG-H11983_MuspellPrime_4.jpg?v=1692892153&width=700",
+            "https://www.stf.tech/cdn/shop/files/STG-H11983_MuspellPrime_5.jpg?v=1692892153&width=700"
+        ]
+    },
+    {
+        "id": 17,
+        "nombre":"Audífonos Gamer Alámbricos Select Gaming Flame-X Sg-h5 Micrófono Integrado Luz Rgb",
+        "precio": 187999,
+        "categoria":"audifonos",
+        "imagenes": [
+            "https://selectsound.com.mx/cdn/shop/files/audifonos-gamer-select-gaming-flame-alambricos-sg-h5-microfono-integrado-luz-rgb-775952_1080x1080.jpg?v=1713925273",
+            "https://selectsound.com.mx/cdn/shop/files/audifonos-gamer-select-gaming-flame-alambricos-sg-h5-microfono-integrado-luz-rgb-761704_1080x1080.jpg?v=1720799980",
+            "https://selectsound.com.mx/cdn/shop/files/audifonos-gamer-select-gaming-flame-alambricos-sg-h5-microfono-integrado-luz-rgb-633017_1080x1080.jpg?v=1720799980",
+            "https://selectsound.com.mx/cdn/shop/files/audifonos-gamer-select-gaming-flame-alambricos-sg-h5-microfono-integrado-luz-rgb-853461_1080x1080.jpg?v=1720799980"
+        ]
     }
 ]
