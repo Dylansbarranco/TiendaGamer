@@ -1,0 +1,19 @@
+#destacados-list {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  width: 100%;
+}
+
+#main{
+  width: auto;
+  max-width: none;
+}
+
+.producto-card{
+  width: auto;
+}
+
+.producto-media .main-img{
+  width: 100%;
+  height: auto;
+}
