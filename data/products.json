@@ -218,5 +218,53 @@
             "https://selectsound.com.mx/cdn/shop/files/audifonos-gamer-select-gaming-flame-alambricos-sg-h5-microfono-integrado-luz-rgb-633017_1080x1080.jpg?v=1720799980",
             "https://selectsound.com.mx/cdn/shop/files/audifonos-gamer-select-gaming-flame-alambricos-sg-h5-microfono-integrado-luz-rgb-853461_1080x1080.jpg?v=1720799980"
         ]
+    },
+    {
+        "id": 18,
+        "nombre":"Board Msi B650m Gaming Wifi (socket Am5)",
+        "precio": 499999,
+        "categoria":"Placa Madre",
+        "imagenes": [
+            "https://http2.mlstatic.com/D_NQ_NP_2X_959205-MLA95522539973_102025-F.webp",
+            "https://http2.mlstatic.com/D_NQ_NP_2X_867459-MLA91861363861_092025-F.webp",
+            "https://http2.mlstatic.com/D_NQ_NP_2X_725754-MLA91861373723_092025-F.webp",
+            "https://http2.mlstatic.com/D_NQ_NP_2X_944935-MLA91463642466_092025-F.webp"
+        ]
+    },
+    {
+        "id": 19,
+        "nombre":"Board Asus Prime Z890m Plus Wifi 4gpu Dp Usb-C 4 Ddr5",
+        "precio": 11187999,
+        "categoria":"Placa Madre",
+        "imagenes": [
+            "https://http2.mlstatic.com/D_NQ_NP_2X_875307-MLA93498747239_092025-F.webp",
+            "https://http2.mlstatic.com/D_NQ_NP_2X_854062-MLA93498688305_092025-F.webp",
+            "https://http2.mlstatic.com/D_NQ_NP_2X_998814-MLA93498514127_092025-F.webp",
+            "https://http2.mlstatic.com/D_NQ_NP_2X_633142-MLA93082894900_092025-F.webp",
+            "https://http2.mlstatic.com/D_NQ_NP_2X_781814-MLA93082649682_092025-F.webp"
+        ]
+    },
+    {
+        "id": 20,
+        "nombre":"Teclado Gamer Gx Genius Scorpion K11 Pro Rgb",
+        "precio": 99999,
+        "categoria":"Teclados",
+        "imagenes": [
+            "https://http2.mlstatic.com/D_NQ_NP_990938-MLA52149254769_102022-O.webp",
+            "https://http2.mlstatic.com/D_NQ_NP_2X_680420-MLA52149390025_102022-F.webp",
+            "https://http2.mlstatic.com/D_NQ_NP_2X_718326-MLA74247921597_012024-F.webp"
+        ]
+    },
+    {
+        "id": 21,
+        "nombre":"Cnix Teclado Gamer Genius Gx Scorpion K215 Iluminado Usb",
+        "precio": 68999,
+        "categoria":"Teclados",
+        "imagenes": [
+            "https://http2.mlstatic.com/D_NQ_NP_2X_779172-MEC31573719975_072019-F.webp",
+            "https://http2.mlstatic.com/D_NQ_NP_2X_690168-MLA91853954979_092025-F.webp"
+        ]
     }
+    
+
 ]
